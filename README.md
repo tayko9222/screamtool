@@ -10,4 +10,4 @@ and :
 pip install -r requirements.txt
 
 and for finish :
-pyhon scream
+pyhon scream-txr.py
