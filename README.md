@@ -8,7 +8,7 @@ This Tool is made for educational purposes only. Do not attempt to violate the l
 
 It only demonstrates "how phishing works". You shall not misuse the information to gain unauthorized access to someones social media. However you may try out this at your own risk.
 
-### Installation
+### Installation Linux
 
 ##### Clone this repository
 
@@ -18,7 +18,7 @@ It only demonstrates "how phishing works". You shall not misuse the information 
  - ```cd screamtool```
 
 ##### Install all modules
- - ```pip3 install -r requirements.txt```
+ - ```pip install -r requirements.txt```
 
 ##### Run the tool
  - ```python SCReam.py```
@@ -29,10 +29,38 @@ wget https://raw.githubusercontent.com/tayko9222/screamtool/main/SCReam.py && py
 
 ```
 
-### Pip
- - `pip3 install screamtool` [For Termux]
- - `sudo pip3 install screamtool --break-system-packages` [For Linux]
- - `screamtool`
+### Installation Termux
+
+##### Clone this repository
+
+ - ```git clone https://github.com/tayko9222/screamtool.git```
+
+##### Enter the directory
+ - ```cd screamtool```
+
+##### Install all modules
+ - ```pip install -r requirements.txt```
+
+##### Run the tool
+ - ```python3 SCReam.py```
+
+### Installation Windows
+
+##### Download the repertory in ZIP
+
+ - ```Just download```
+
+##### Copy the path where is locate screamtool and do
+ - ```cd C:/path/screamtool```
+
+##### Install all modules
+ - ```pip install -r requirements.txt```
+
+##### Run the tool
+ - ```python SCReam.py```
+
+##### Or just see this tuto and use git clone
+ - '''https://www.youtube.com/watch?v=Jge57UHvYto'''
 
 ### Docker
 
