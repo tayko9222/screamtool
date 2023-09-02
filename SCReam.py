@@ -13,60 +13,13 @@ from colored import *
 from pystyle import Colors, Colorate
 from colorama import *
 
-os.system('cls')
+if platform.system().startswith("Linux"):
+    os.system('clear')
+elif platform.system().startswith("Windows"):
+    os.system('cls')
+    
 print(f"{Fore.RED}[", end=''), print(f'{colored.fg(172)}+', end=''), print(f"{Fore.RED}]", end=''), print(f'{colored.fg(172)} Please Wait ')
 
-if platform.system().startswith("Linux"):
-    try:
-        import requests
-    except ImportError:
-        os.system("python3 -m pip install requests -q -q -q")
-        import requests
-    try:
-        import colored
-    except ImportError:
-        os.system("python3 -m pip install colored -q -q -q")
-        import colored
-    try:
-        import colorama
-        from colorama import Fore, Back, Style
-    except ImportError:
-        os.system("python3 -m pip install colorama -q -q -q")
-        import colorama
-        from colorama import Fore, Back, Style
-    try:
-        from sys import *
-    except:
-        os.system("python3 -m pip install sys -q -q -q")
-        from sys import *
-    try:
-        import time
-    except:
-        os.system("python3 -m pip install time -q -q -q")
-        from time import *
-elif platform.system().startswith("Windows"):
-    try:
-        import requests
-    except ImportError:
-        os.system("python -m pip install requests -q -q -q")
-        import requests
-    try:
-        import colored
-    except ImportError:
-        os.system("python -m pip install colored -q -q -q")
-        import colored
-    try:
-        import colorama
-        from colorama import Fore, Back, Style
-    except ImportError:
-        os.system("python -m pip install colorama -q -q -q")
-        import colorama
-        from colorama import Fore, Back, Style
-    try:
-        from smtplib import *
-    except:
-        os.system("python -m pip install smtplib -q -q -q")
-        from smtplib import *
 
 time.sleep(1)
 amd = (Colorate.Horizontal(Colors.red_to_yellow,"""
