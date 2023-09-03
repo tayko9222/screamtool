@@ -40,6 +40,12 @@ print(f"{Fore.CYAN}[",end=''), print(f'{colored.fg(231)}?', end=''), print(f"{Fo
 opt = int(input(" > "))
 
 if opt == 1:
+
+    if platform.system().startswith("Linux"):
+        os.system('clear')
+    elif platform.system().startswith("Windows"):
+        os.system('cls')
+
     if platform.system().startswith("Linux"):
         os.system('python3 doxu.py')
     elif platform.system().startswith("Windows"):
