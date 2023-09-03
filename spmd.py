@@ -33,7 +33,7 @@ print(Fore.CYAN + "   ___  _  _   __   __  __        ____  ____   __   _  _  _  
 print(Colors.red, " / __)( \/ ) / _\ (  )(  )      / ___)(  _ \ / _\ ( \/ )( \/ )(  __)(  _ /")
 print(Colors.orange, "( (_ \/ \/ \/    \ )( / (_/\    \___ \ ) __//    \/ \/ \/ \/ \ ) _)  )   /")
 print(Fore.BLUE + "  \___/\_)(_/\_/\_/(__)\____/    (____/(__)  \_/\_/\_)(_/\_)(_/(____)(__\_)")
-print(f"{Fore.YELLOW}                                                        [{Fore.BLUE}v.10000{Fore.YELLOW}] ")
+print(f"{Fore.YELLOW}                                                        [{Fore.BLUE}v.12345{Fore.YELLOW}] ")
 print("")
 print("")
 print("")
