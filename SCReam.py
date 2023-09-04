@@ -118,13 +118,16 @@ print("")
 # CATEGORY
 
 
-print(f"{Fore.CYAN}[",end=''), print(f'{colored.fg(231)}01', end=''), print(f"{Fore.CYAN}] ", end='') , print(f'{colored.fg(84)}DDoS ')
+print(f"{Fore.CYAN}[",end=''), print(f'{colored.fg(231)}01', end=''), print(f"{Fore.CYAN}] ", end='') , print(f'{colored.fg(84)}DoS ')
+print("")
+print(f"{Fore.CYAN}[",end=''), print(f'{colored.fg(231)}05', end=''), print(f"{Fore.CYAN}] ", end='') , print(f'{colored.fg(84)}DDoS ')
 print("")
 print(f"{Fore.CYAN}[",end=''), print(f'{colored.fg(231)}02', end=''), print(f"{Fore.CYAN}] ", end='') , print(f'{colored.fg(84)}Spamming ')
 print("")
 print(f"{Fore.CYAN}[",end=''), print(f'{colored.fg(231)}03', end=''), print(f"{Fore.CYAN}] ", end='') , print(f'{colored.fg(84)}Port Scanner ')
 print("")
 print(f"{Fore.CYAN}[",end=''), print(f'{colored.fg(231)}04', end=''), print(f"{Fore.CYAN}] ", end='') , print(f'{colored.fg(84)}DoXxing ')
+
 print("")
 print("")
 print(f"{Fore.CYAN}[",end=''), print(f'{colored.fg(231)}0', end=''), print(f"{Fore.CYAN}] ", end='') , print(f'{colored.fg(84)}Exit ', end=''), print("                ", end=''), print(f"{Fore.CYAN}[",end=''), print(f'{colored.fg(231)}9', end=''), print(f"{Fore.CYAN}] ", end='') , print(f'{colored.fg(84)}Github ', end=''),print("                ", end=''), print(f"{Fore.CYAN}[",end=''), print(f'{colored.fg(231)}h', end=''), print(f"{Fore.CYAN}] ", end='') , print(f'{colored.fg(84)}Help ')
@@ -151,6 +154,22 @@ if option == 1:
         os.system('python3 tcpdos.py')
     elif platform.system().startswith("Windows"):
         import tcpdos
+
+
+# OPTION 5
+
+if option == 1:
+    if platform.system().startswith("Linux"):
+        os.system('clear')
+    elif platform.system().startswith("Windows"):
+        os.system('cls')
+
+    time.sleep(1.25)
+
+    if platform.system().startswith("Linux"):
+        os.system('python3 tcpddos.py')
+    elif platform.system().startswith("Windows"):
+        import tcpddos
 
 
 # OPTION 2
@@ -229,9 +248,6 @@ if option == 0:
     elif platform.system().startswith("Windows"):
         os.system('cls')
     exit()
-
-
-
 
 
 
